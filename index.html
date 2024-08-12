@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es-pe">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="styles/day.css">
+</head>
+<body>
+    <header>
+            <img class="boton_refrescar" src="imagenes/Logo.png" alt="Logo de Alura LATAM">
+            <h1 class="header_titulo">Encriptador de texto</h1>
+            <button onclick="modoNoche()" class="interruptor"><img src="imagenes/noche.png" alt="Modo Noche"/></button>    
+    </header>
+    <main>
+        <section class="presentacion_contenido">
+            <textarea class="presentacion_contenido_formulario" name="encriptado" cols="32" rows="9" placeholder="Ingrese el texto aquí"></textarea>
+            <div class="advertencia">
+                <img class="presentacion_contenido_imagen" src="imagenes/Vector.png" alt="Imagen de advertencia">
+                <p class="presentacion_contenido_parrafo">Solo letras minúsculas y sin acentos.</p>
+            </div>    
+            <div class="presentacion_botones">
+                <button onclick="botonEncriptar()" class="presentacion_botones_encriptar" >Encriptar</button>
+                <button onclick="botonDesencriptar()" class="presentacion_botones_desencriptar">Desencriptar</button>
+            </div>
+        </section>
+        <section class="presentacion_caja"> 
+            <img class="caja_imagen" src="imagenes/astronauta.png" alt="Imagen de un astronauta">
+            <textarea class="presentacion_caja_formulario" name="desencriptado" cols="22" rows="15"></textarea>
+            <h2 class="presentacion_caja_titulo">Ningún mensaje fue encontrado</h2> 
+            <p class="presentacion_caja_parrafo">Ingresa el texto que desees encriptar o desencriptar.</p>
+            <div class="btn_copiar">
+                <button onclick="copiarTexto()" class="presentacion_boton_copiar">Copiar</button>   
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Desarrollado por Christiam Reyes, 2024.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
