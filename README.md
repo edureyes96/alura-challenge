@@ -1,3 +1,3 @@
 <h1>Encriptador de texto</h1>
 
-- Estado del proyecto: en desarrollo.
+- Estado del proyecto: finalizado.
