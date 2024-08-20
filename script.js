@@ -37,6 +37,7 @@ function botonDesencriptar(){
     formulario.value = '';
     cajaTitulo.style.visibility = 'hidden';
     cajaParrafo.style.visibility = 'hidden';
+    cajaImagen.style.visibility = 'hidden';
 }
 
 function desencriptar(cadenaDesencriptada) {
